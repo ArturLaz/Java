@@ -9,7 +9,7 @@ public class Train {
     private double Number_of_seats;
 
 
-    public Train (int i, String мельник, String анна, String маріївна, int i1, double v, double v1) {
+    public Train () {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your destination:");
         Destination = scanner.nextLine();
@@ -22,6 +22,7 @@ public class Train {
         Number_of_seats = scanner.nextDouble();
     }
     public Train (int Train_number, String Destination,int Shipping_time,double Number_of_seats){
+
         this.Destination = Destination;
         this.Train_number = Train_number;
         this.Shipping_time = Shipping_time;
@@ -29,23 +30,26 @@ public class Train {
     }
 
     public int getTrain_number(){
+
         return this.Train_number;
     }
 
-    public String Destination () {
+    public String getDestination () {
+
         return this.Destination;
     }
 
 
     public int getShipping_time() {
+
         return this.Shipping_time;
     }
 
 
     public double getNumber_of_seats() {
+
         return Number_of_seats;
     }
-
 
     public String toString(){
 
