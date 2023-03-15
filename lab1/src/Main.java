@@ -1,5 +1,7 @@
 import Train.Train;
+
 import java.util.Scanner;
+
 public class Main {
     private Train[] trains;
 
@@ -52,14 +54,14 @@ public class Main {
         }
     }
     public void showTrains_heading_to_the_specified_route(){
-        System.out.println("Enter the lower limit of account numbers:");
+        System.out.println("Enter the lower limit of a numbers:");
         Scanner scanner = new Scanner(System.in);
         long range1 = scanner.nextLong();
-        System.out.println("Enter the upper limit of account numbers:");
+        System.out.println("Enter the upper limit of train numbers:");
         long range2 = scanner.nextLong();
         System.out.println("4//////////////////////////////////////");
         for (int i = 0; i<= trains.length; i++){
-            if (trains[i].getAccountNumber()>=range1 && trains[i].getAccountNumber()<=range2)
+            if (trains[i=0].getTrain_number()>=range1 && trains[i].getTrain_number()<=range2)
                 System.out.println(trains[i].toString());
         }
     }
