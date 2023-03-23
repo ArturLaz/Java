@@ -16,7 +16,7 @@ public class Main {
     }
 
     public Main() {
-        trains = new Train[2];
+        trains = new Train[3];
 
         trains[0] = new Train(1, "Ternopil", 12, 8.11);
         trains[1] = new Train();
