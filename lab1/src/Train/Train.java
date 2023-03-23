@@ -51,7 +51,7 @@ public class Train {
         return Number_of_seats;
     }
 
-    public String toString(){
+    public String test(){
 
         return "Train {" + "Destination point = " + Destination + ", Train number = " + Train_number +
                 " Time of dispatch = " + Shipping_time + ", Number, month = " + Number_of_seats +"}";

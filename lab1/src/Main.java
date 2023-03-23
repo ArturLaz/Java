@@ -39,7 +39,18 @@ public class Main {
         int timeIn = scanner.nextInt();
         for (Train item : trains) {
             if (item.getTrain_number() > timeIn)
-                System.out.println(item.toString());
+                System.out.println(item.test());
+        }
+    }
+
+    public void showShipping_time_() {
+        System.out.println("3//////////////////////////////////////");
+        System.out.println("Enter time of departure :");
+        Scanner scanner = new Scanner(System.in);
+        int timeIn = scanner.nextInt();
+        for (Train item: trains) {
+            if (item.getShipping_time() > timeIn)
+                System.out.println(item.test());
         }
     }
 
@@ -50,19 +61,10 @@ public class Main {
         double timeIn = scanner.nextDouble();
         for (Train item : trains) {
             if (item.getNumber_of_seats() > timeIn)
-                System.out.println(item.toString());
+                System.out.println(item.test());
         }
     }
-    public void showShipping_time_() {
-        System.out.println("3//////////////////////////////////////");
-        System.out.println("Enter time of departure :");
-        Scanner scanner = new Scanner(System.in);
-        int timeIn = scanner.nextInt();
-        for (Train item: trains) {
-            if (item.getShipping_time() > timeIn)
-                System.out.println(item.toString());
-        }
-    }
+
 
 
 }
