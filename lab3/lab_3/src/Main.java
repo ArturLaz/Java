@@ -9,9 +9,9 @@ public class Main {
         Main main = new Main();
 
         main.showDestination();
-        main.showTrain_namber_();
-        main.showShipping_time_();
-        main.showNumber_of_seats_();
+        main.showTrainNamber();
+        main.showShippingTime();
+        main.showNumberOfSeats();
         main.displayAll();
 
     }
@@ -30,9 +30,8 @@ public class Main {
     }
 
 
-    public void showTrain_namber_() {
+    public void showTrainNamber() {
 
-        System.out.println("2//////////////////////////////////////");
         System.out.println("Enter your Train number:");
         Scanner scanner = new Scanner(System.in);
         int timeIn = scanner.nextInt();
@@ -42,8 +41,8 @@ public class Main {
         }
     }
 
-    public void showShipping_time_() {
-        System.out.println("3//////////////////////////////////////");
+    public void showShippingTime() {
+
         System.out.println("Enter time of departure :");
         Scanner scanner = new Scanner(System.in);
         int timeIn = scanner.nextInt();
@@ -53,8 +52,8 @@ public class Main {
         }
     }
 
-    public void showNumber_of_seats_() {
-        System.out.println("4//////////////////////////////////////");
+    public void showNumberOfSeats() {
+
         System.out.println("Enter number, month:");
         Scanner scanner = new Scanner(System.in);
         double timeIn = scanner.nextDouble();
