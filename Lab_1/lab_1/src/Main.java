@@ -1,56 +1,64 @@
-package Train;
+package train;
+import Train;
 
-import java.util.ArrayList;
+import java.util.Scanner;
 public class Main {
+    private Train[] trains;
     public static void main(String[] args) {
-        // Створюємо масив об'єктів типу Train
-        ArrayList<Train> trains = new ArrayList<>();
-        trains.add(new Train("Kyiv", 1, 800, 200, 50, 100, 50));
-        trains.add(new Train("Lviv", 2, 900, 300, 70, 150, 80));
-        trains.add(new Train("Kharkiv", 3, 1000, 250, 60, 120, 70));
-        trains.add(new Train("Odesa", 4, 1100, 280, 65, 130, 85));
-        trains.add(new Train("Dnipro", 5, 1200, 220, 55, 110, 55));
+        Main main = new Main();
 
-        // a) Список поїздів, які прямують до заданого пункту призначення
-        String destination = "Kyiv";
-        ArrayList<Train> trainsToDestination = new ArrayList<>();
-        for (Train train : trains) {
-            if (train.getDestination().equals(destination)) {
-                trainsToDestination.add(train);
-            }
-        }
-        System.out.println("Список поїздів, які прямують до " + destination + ":");
-        for (Train train : trainsToDestination) {
-            System.out.println(train.getNumber());
-        }
+        main.showDestination();
 
-        // b) Список поїздів, які прямують до заданого пункту призначення та відправляються після заданої години
-        int departureTime = 1000;
-        ArrayList<Train> trainsToDestinationAfterTime = new ArrayList<>();
-        for (Train train : trains) {
-            if (train.getDestination().equals(destination) && train.getDepartureTime() > departureTime) {
-                trainsToDestinationAfterTime.add(train);
-            }
-        }
-        // c) Список поїздів, в яких є вільні місця (будь-якого типу)
-        ArrayList<Train> trainsWithFreeSeats = new ArrayList<>();
-        for (Train train : trains) {
-            if (train.getTotalSeats() > 0) {
-                trainsWithFreeSeats.add(train);
-            }
-        }
-        System.out.println("Список поїздів, в яких є вільні місця:");
-        for (Train train : trainsWithFreeSeats) {
-            System.out.println(train.getNumber());
+        main.showTrainNambet();
+
+        main.showDepartureTime();
+
+        main.showSeats;
+
+
+    }
+
+    public Main(){
+        trains = new Train[][5];
+
+        trains[0] = new Train("Ternopil", 1,"8:42",5);
+        trains[1] = new Train("Lviv", 3,"12:30",4);
+        trains[2] = new Train("Rivne", 5,"7:10",6);
+        trains[3] = new Train("Zhytomyr", 7,"19:25",2);
+        trains[4] = new Train();
+    }
+
+    public void showDestination(){
+        System.out.println("Confirm Destination");
+        Scanner scanner = new Scanner((System.in));
+
+    }
+    public void showTrainNambet() {
+        System.out.println("Enter train number:");
+        Scanner scanner = new Scanner(System.in);
+        int timeIn = scanner.nextInt();
+        for (Train item : trains) {
+            if (item.getTrainNumber() > timeIn)
+                System.out.println(item.toString());
         }
 
-        // d) Кількість вільних місць у заданому поїзді
-        int trainNumber = 2;
-        for (Train train : trains) {
-            if (train.getNumber() == trainNumber) {
-                int freeSeats = train.getTotalSeats() - train.getCoupeSeats() - train.getPlatskartSeats() - train.getLuxeSeats();
-                System.out.println("Кількість вільних місць у поїзді " + trainNumber + ": " + freeSeats);
-            }
+    }
+
+    public void showDepartureTime(){
+        System.out.println("Confirm Destination");
+        Scanner scanner = new Scanner((System.in));
+
+    }
+
+    public void showSeats(){
+        System.out.println("Enter seats:");
+        Scanner scanner = new Scanner(System.in);
+        int timeIn = scanner.nextInt();
+        for (Train item : trains) {
+            if (item.getSeats() > timeIn)
+                System.out.println(item.toString());
         }
     }
+
+
 }
