@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53d92d10-e1b4-46ae-beaf-3789ad226aba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab_1/src/train/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab_1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_1/src/Train/Train.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_1/Train/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_1/Train/Train.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/.idea/Lab_3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/lab_3/lab_3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/lab_3/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/lab_3/src/Transport/Bus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/lab_3/src/Transport/Train.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_3/lab_3/src/Transport/Transport.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "19"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

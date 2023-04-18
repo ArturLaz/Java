@@ -29,10 +29,13 @@ public class Main {
     }
 
     public void showDestination(){
-        System.out.println("Confirm Destination");
-        Scanner scanner = new Scanner((System.in));
+        System.out.println("Confirm your destination:");
+        Scanner scanner = new Scanner(System.in);
+        String dest = String.valueOf(new Scanner(System.lineSeparator()));
+        System.out.println(dest.toString());
 
     }
+
     public void showTrainNambet() {
         System.out.println("Enter train number:");
         Scanner scanner = new Scanner(System.in);
@@ -45,11 +48,12 @@ public class Main {
     }
 
     public void showDepartureTime(){
-        System.out.println("Confirm Destination");
-        Scanner scanner = new Scanner((System.in));
+        System.out.println("Confirm the time of departure:");
+        Scanner scanner = new Scanner(System.in);
+        String dep = String.valueOf(new Scanner(System.lineSeparator()));
+        System.out.println(dep.toString());
 
     }
-
     public void showSeats(){
         System.out.println("Enter seats:");
         Scanner scanner = new Scanner(System.in);
